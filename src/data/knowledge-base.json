@@ -1,0 +1,169 @@
+{
+  "platform": {
+    "name": "Mundial de Fútbol Inteligente",
+    "description": "Plataforma web informativa para análisis, visualización de datos y predicción simulada de partidos relacionados con fútbol y el Mundial."
+  },
+  "home": {
+    "summary": "El fútbol ha evolucionado desde la observación táctica tradicional hasta el uso de datos, sensores, modelos estadísticos e inteligencia artificial."
+  },
+  "history": {
+    "summary": "La plataforma resume los orígenes del fútbol moderno, el crecimiento de competiciones internacionales, la importancia de la Copa Mundial, la evolución del análisis táctico y el uso responsable de estadísticas, sensores, videoanálisis, big data e inteligencia artificial."
+  },
+  "sections": [
+    "Inicio",
+    "Historia del fútbol y del Mundial",
+    "Módulos de análisis",
+    "Visualización de datos",
+    "Equipo técnico",
+    "Chatbot mundialista",
+    "Contáctanos"
+  ],
+  "allowed_topics": [
+    "historia del fútbol",
+    "historia del mundial",
+    "módulos de análisis",
+    "predicciones simuladas",
+    "grupos del Mundial 2026",
+    "calendario del Mundial 2026",
+    "partidos del Mundial 2026",
+    "sedes y fechas del Mundial 2026",
+    "visualización de datos",
+    "equipo técnico",
+    "contacto",
+    "uso de IA en fútbol",
+    "declaración persona transhumana",
+    "ética",
+    "autonomía",
+    "desarrollo humano",
+    "responsabilidad social"
+  ],
+  "languages": ["es", "en"],
+  "initial_message_es": "Hola, soy el asistente de Mundial de Fútbol Inteligente. Soy LIBRE, AUTÓNOMO Y RESPONSABLE a través del diálogo y la construcción, como ideal regulativo; me dirijo, controlo y dicto mis propias leyes. Puedo ayudarte en español o inglés con información de esta plataforma.",
+  "initial_message_en": "Hello, I am the assistant of Mundial de Fútbol Inteligente. I am FREE, AUTONOMOUS AND RESPONSIBLE through dialogue and construction, as a regulatory ideal; I direct, control and dictate my own laws. I can help you in Spanish or English with information from this platform.",
+  "fallback_response_es": "Lo siento, solo puedo responder preguntas relacionadas con la plataforma de predicción futbolística y mundialista presentada en esta página.",
+  "fallback_response_en": "Sorry, I can only answer questions related to the football and World Cup prediction platform presented on this page.",
+  "declaration": {
+    "es": "Soy LIBRE, AUTÓNOMO Y RESPONSABLE a través del diálogo y la construcción, como ideal regulativo; me dirijo, controlo y dicto mis propias leyes.",
+    "en": "I am FREE, AUTONOMOUS AND RESPONSIBLE through dialogue and construction, as a regulatory ideal; I direct, control and dictate my own laws."
+  },
+  "philosophy": {
+    "summary": "El proyecto integra ética, autonomía, desarrollo humano, bienestar, evolución personal, transformación positiva y responsabilidad social como criterios para un sistema de conocimiento responsable."
+  },
+  "modules": [
+    {
+      "title": "Análisis del partido actual",
+      "description": "Muestra marcador simulado, posesión, remates, faltas, tarjetas y jugador destacado para consultar el estado de un partido."
+    },
+    {
+      "title": "Predicción por fases del Mundial",
+      "description": "Organiza escenarios simulados de fase de grupos, octavos, cuartos, semifinal y final."
+    },
+    {
+      "title": "Predicción semanal de partidos",
+      "description": "Presenta tabla semanal con fecha, equipos, probabilidades y resultado estimado."
+    },
+    {
+      "title": "Análisis histórico de datos mundialistas",
+      "description": "Incluye títulos, goleadores históricos, rendimiento por continente, promedio de goles y tendencias tácticas."
+    },
+    {
+      "title": "Predicción asistida por inteligencia artificial",
+      "description": "Explica modelos predictivos, variables del partido, probabilidades y limitaciones de las predicciones."
+    }
+  ],
+  "metrics": [
+    {
+      "title": "Goles promedio",
+      "value": "2.6"
+    },
+    {
+      "title": "Posesión promedio",
+      "value": "54%"
+    },
+    {
+      "title": "Remates al arco",
+      "value": "7.8"
+    },
+    {
+      "title": "Precisión de pases",
+      "value": "84%"
+    },
+    {
+      "title": "Probabilidad de victoria",
+      "value": "61%"
+    },
+    {
+      "title": "Rendimiento del equipo",
+      "value": "78/100"
+    }
+  ],
+  "weekly_predictions": [
+    "Colombia vs Brasil: Brasil 2-1",
+    "Argentina vs Francia: Argentina 2-1",
+    "España vs Alemania: Empate 1-1",
+    "Inglaterra vs Portugal: Portugal 2-1",
+    "Uruguay vs México: Uruguay 1-0"
+  ],
+  "match_predictions": [
+    {
+      "match": "México vs Sudáfrica",
+      "team_a_probability": "45%",
+      "draw_probability": "30%",
+      "team_b_probability": "25%",
+      "estimated_result": "México 1-0",
+      "analysis_es": "Predicción simulada: México tiene ligera ventaja por localía, contexto de apertura y apoyo del público. Sudáfrica puede competir si defiende compacto y aprovecha transiciones rápidas.",
+      "analysis_en": "Simulated prediction: Mexico has a slight edge because of home advantage, the opening-match context and crowd support. South Africa can compete by defending compactly and using quick transitions."
+    }
+  ],
+  "team": [
+    {
+      "name": "Yury Andrea Dorado Lucas",
+      "role": "Desarrolladora Frontend, soporte tecnológico y gestión de bases de datos",
+      "summary": "Estudiante de Ingeniería de Sistemas de octavo semestre en la Universidad de Cundinamarca. Tiene conocimientos en Laravel, MySQL, PHP básico/intermedio, HTML, CSS, lógica de programación, manejo de software y análisis de información.",
+      "cv": "Proyecto destacado: Bovi Controll, desarrollado con Laravel y MySQL para control y gestión de información de procesos ganaderos."
+    },
+    {
+      "name": "Especialista en Inteligencia Artificial Aplicada",
+      "role": "Profesional ficticio especializado en modelos predictivos, procesamiento de datos deportivos e inteligencia artificial aplicada."
+    },
+    {
+      "name": "Analista de Datos Futbolísticos",
+      "role": "Profesional ficticio encargado de interpretar estadísticas, datos históricos, rendimiento de equipos y visualizaciones mundialistas."
+    }
+  ],
+  "contact": {
+    "email": "contacto@mundialinteligente.com",
+    "whatsapp": "+57 300 000 0000",
+    "location": "Bogotá, Colombia",
+    "schedule": "Lunes a viernes, 8:00 a.m. a 6:00 p.m."
+  },
+  "faq": [
+    {
+      "question": "¿Los datos son reales?",
+      "answer": "No. Los datos y predicciones son simulados y se usan con fines académicos."
+    },
+    {
+      "question": "Can the chatbot answer in English?",
+      "answer": "Yes. The chatbot can answer in Spanish or English using only the local knowledge base."
+    },
+    {
+      "question": "¿La plataforma recomienda apuestas?",
+      "answer": "No. La plataforma no entrega apuestas deportivas ni recomendaciones de dinero."
+    }
+  ],
+  "restrictions": [
+    "No responder temas externos a la plataforma.",
+    "Mantener el idioma usado por el usuario o seleccionado en la interfaz.",
+    "No inventar datos reales de partidos actuales.",
+    "No afirmar que las predicciones son reales si son simuladas.",
+    "No dar apuestas deportivas ni recomendaciones de dinero.",
+    "No responder preguntas políticas, médicas, financieras o personales.",
+    "Indicar que los datos mostrados son simulados.",
+    "Responder con tono claro, educativo y profesional."
+  ],
+  "gemini": {
+    "model_note": "El prompt académico menciona gemini-flash-latest 1.5 o un modelo equivalente disponible en Google AI Studio. El nombre final del modelo debe validarse antes de producción.",
+    "security": "No se debe llamar Gemini directamente desde el frontend con una API key real. La clave debe estar en un backend o proxy y leerse desde variables de entorno.",
+    "proxy": "El proxy opcional recibe la pregunta, combina el mensaje con la base de conocimiento local y solicita a Gemini responder únicamente con información autorizada."
+  }
+}

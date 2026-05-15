@@ -1,0 +1,74 @@
+{
+  "current_match": {
+    "home_team": "Colombia",
+    "away_team": "Brasil",
+    "score": "1 - 2",
+    "status": "Minuto 68, escenario simulado",
+    "highlight_player": "Luis Díaz",
+    "stats": [
+      {
+        "label": "Posesión",
+        "value": "Colombia 46% / Brasil 54%"
+      },
+      {
+        "label": "Remates",
+        "value": "Colombia 8 / Brasil 11"
+      },
+      {
+        "label": "Faltas",
+        "value": "Colombia 10 / Brasil 7"
+      },
+      {
+        "label": "Tarjetas",
+        "value": "Colombia 2 / Brasil 1"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "analisis-partido-actual",
+      "title": "Análisis del partido actual",
+      "description": "Muestra un resumen rápido de un partido destacado con marcador, posesión, remates, faltas, tarjetas y jugador destacado.",
+      "content": "El módulo organiza información simulada de un partido en curso para facilitar la lectura del estado competitivo.",
+      "objective": "Permitir al usuario consultar un resumen claro del estado actual de un partido.",
+      "use_case": "Panel de seguimiento académico para explicar cómo se pueden presentar datos de rendimiento durante un encuentro.",
+      "tags": ["Marcador", "Posesión", "Jugador destacado"]
+    },
+    {
+      "id": "prediccion-fases-mundial",
+      "title": "Predicción por fases del Mundial",
+      "description": "Presenta escenarios simulados de clasificación para fase de grupos, octavos, cuartos, semifinal y final.",
+      "content": "Usa variables históricas, rendimiento reciente simulado y probabilidades educativas para mostrar posibles rutas del torneo.",
+      "objective": "Explicar cómo una plataforma puede organizar escenarios posibles de clasificación usando datos históricos y rendimiento.",
+      "use_case": "Comparar rutas hipotéticas de selecciones sin afirmar que las predicciones son reales.",
+      "tags": ["Fase de grupos", "Eliminatorias", "Escenarios"]
+    },
+    {
+      "id": "prediccion-semanal",
+      "title": "Predicción semanal de partidos",
+      "description": "Incluye una tabla con partidos simulados, probabilidades de victoria, empate y resultado estimado.",
+      "content": "Cada registro semanal facilita comparar probabilidades entre equipos de forma simple y visual.",
+      "objective": "Mostrar una visualización sencilla de predicciones futbolísticas semanales.",
+      "use_case": "Actividad de análisis para interpretar porcentajes, empates y resultados estimados con datos ficticios.",
+      "tags": ["Tabla semanal", "Probabilidades", "Resultados"]
+    },
+    {
+      "id": "analisis-historico",
+      "title": "Análisis histórico de datos mundialistas",
+      "description": "Explora títulos, goleadores, rendimiento por continente, promedio de goles y tendencias tácticas.",
+      "content": "El módulo resume patrones históricos relevantes para contextualizar la evolución competitiva del Mundial.",
+      "objective": "Permitir al usuario explorar patrones históricos relevantes del fútbol mundial.",
+      "use_case": "Base educativa para relacionar historia, rendimiento y comportamiento estadístico de selecciones.",
+      "tags": ["Historia", "Títulos", "Tendencias"]
+    },
+    {
+      "id": "prediccion-asistida-ia",
+      "title": "Predicción asistida por inteligencia artificial",
+      "description": "Explica cómo modelos predictivos pueden apoyar el análisis deportivo con variables del partido y datos históricos.",
+      "content": "El módulo presenta probabilidades, análisis de rendimiento y limitaciones éticas para evitar falsas certezas.",
+      "objective": "Mostrar una visión educativa y responsable del uso de IA en fútbol.",
+      "use_case": "Introducir modelos de apoyo a decisiones deportivas sin convertirlos en apuestas ni predicciones infalibles.",
+      "tags": ["IA", "Ética", "Limitaciones"]
+    }
+  ]
+}

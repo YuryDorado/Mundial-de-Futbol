@@ -1,0 +1,92 @@
+{
+  "note": "Todos los datos son simulados y se usan con fines académicos.",
+  "metrics": [
+    {
+      "title": "Goles promedio",
+      "value": "2.6",
+      "description": "Promedio simulado por partido en escenarios mundialistas.",
+      "icon": "G"
+    },
+    {
+      "title": "Posesión promedio",
+      "value": "54%",
+      "description": "Control de balón estimado para equipos con mayor dominio táctico.",
+      "icon": "%"
+    },
+    {
+      "title": "Remates al arco",
+      "value": "7.8",
+      "description": "Intentos directos simulados hacia portería por encuentro.",
+      "icon": "T"
+    },
+    {
+      "title": "Precisión de pases",
+      "value": "84%",
+      "description": "Eficiencia de circulación de balón en el modelo académico.",
+      "icon": "P"
+    },
+    {
+      "title": "Probabilidad de victoria",
+      "value": "61%",
+      "description": "Estimación simulada para el equipo con mejor rendimiento reciente.",
+      "icon": "V"
+    },
+    {
+      "title": "Rendimiento del equipo",
+      "value": "78/100",
+      "description": "Índice compuesto de ataque, defensa, posesión y disciplina.",
+      "icon": "R"
+    }
+  ],
+  "weekly_predictions": [
+    {
+      "date": "Lunes",
+      "match": "Colombia vs Brasil",
+      "team_a_probability": "32%",
+      "draw_probability": "28%",
+      "team_b_probability": "40%",
+      "estimated_result": "Brasil 2-1"
+    },
+    {
+      "date": "Martes",
+      "match": "Argentina vs Francia",
+      "team_a_probability": "38%",
+      "draw_probability": "27%",
+      "team_b_probability": "35%",
+      "estimated_result": "Argentina 2-1"
+    },
+    {
+      "date": "Miércoles",
+      "match": "España vs Alemania",
+      "team_a_probability": "34%",
+      "draw_probability": "30%",
+      "team_b_probability": "36%",
+      "estimated_result": "Empate 1-1"
+    },
+    {
+      "date": "Jueves",
+      "match": "Inglaterra vs Portugal",
+      "team_a_probability": "37%",
+      "draw_probability": "25%",
+      "team_b_probability": "38%",
+      "estimated_result": "Portugal 2-1"
+    },
+    {
+      "date": "Viernes",
+      "match": "Uruguay vs México",
+      "team_a_probability": "42%",
+      "draw_probability": "29%",
+      "team_b_probability": "29%",
+      "estimated_result": "Uruguay 1-0"
+    }
+  ],
+  "historical": {
+    "top_title_teams": ["Brasil", "Alemania", "Italia", "Argentina", "Francia"],
+    "historic_scorers": ["Miroslav Klose", "Ronaldo Nazário", "Gerd Müller", "Just Fontaine"],
+    "latin_american_top_scorer": "Ronaldo Nazário (Brasil)",
+    "latin_american_top_scorer_note": "Se destaca por su registro mundialista con Brasil.",
+    "continent_performance": "Europa y Sudamérica concentran la mayoría de campeonatos históricos.",
+    "average_goals_trend": "La media de goles ha variado por época según estilos tácticos, preparación física y reglas.",
+    "tactical_trends": "Presión alta, juego posicional, transiciones rápidas y uso avanzado del videoanálisis."
+  }
+}

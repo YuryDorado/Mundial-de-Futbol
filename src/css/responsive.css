@@ -1,0 +1,134 @@
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 3.45rem;
+  }
+
+  h2 {
+    font-size: 2.05rem;
+  }
+
+  .section-heading,
+  .content-grid--two,
+  .chatbot-layout,
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .team-grid,
+  .metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .mobile-menu-toggle {
+    display: grid;
+    place-items: center;
+  }
+
+  .sidebar {
+    width: min(86vw, 320px);
+    transform: translateX(-105%);
+    transition: transform 220ms ease;
+  }
+
+  body.menu-open .sidebar {
+    transform: translateX(0);
+  }
+
+  .site-main,
+  noscript {
+    margin-left: 0;
+  }
+
+  .section {
+    padding: 4.25rem 0;
+  }
+
+  .hero-section {
+    min-height: calc(100svh - 48px);
+    padding-top: 5.4rem;
+  }
+
+  .hero-section__intro,
+  .hero-section__subtitle {
+    max-width: 100%;
+  }
+
+  .card-grid--modules {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 2.65rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .section__inner {
+    width: min(100% - 1.2rem, 1180px);
+  }
+
+  .hero-section__subtitle {
+    font-size: 1.08rem;
+  }
+
+  .hero-section__actions,
+  .form-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .match-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .match-score {
+    width: 100%;
+  }
+
+  .metric-grid,
+  .team-grid,
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+
+  .chatbot-panel__header {
+    align-items: stretch;
+  }
+
+  .language-select select {
+    width: 100%;
+  }
+
+  .chatbot-messages {
+    max-height: 330px;
+  }
+
+  .chat-message {
+    max-width: 100%;
+  }
+
+  .chatbot-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Cancha de fútbol y datos mundialistas</title>
+  <desc id="desc">Ilustración panorámica de una cancha de fútbol con líneas de análisis y luces de estadio.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#11231c"/>
+      <stop offset="0.55" stop-color="#174530"/>
+      <stop offset="1" stop-color="#f8faf7"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f7a3b"/>
+      <stop offset="0.5" stop-color="#21a65d"/>
+      <stop offset="1" stop-color="#0f5f31"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#fff7b7" stop-opacity="0.55"/>
+      <stop offset="0.7" stop-color="#fff7b7" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#fff7b7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <g opacity="0.32">
+    <ellipse cx="250" cy="220" rx="250" ry="135" fill="url(#light)" filter="url(#soft)"/>
+    <ellipse cx="1330" cy="220" rx="280" ry="145" fill="url(#light)" filter="url(#soft)"/>
+    <path d="M0 400 C280 330 530 335 800 390 C1080 445 1320 405 1600 330 L1600 0 L0 0 Z" fill="#0d1f18" opacity="0.68"/>
+  </g>
+  <g opacity="0.24" stroke="#f7d547" stroke-width="3" fill="none">
+    <path d="M260 170h180m720 0h180"/>
+    <path d="M350 170v175M1250 170v175"/>
+    <path d="M225 345h250M1120 345h250"/>
+  </g>
+  <g transform="translate(120 410)">
+    <path d="M0 410 C210 205 560 55 1360 0 L1360 590 L0 590 Z" fill="url(#field)"/>
+    <path d="M0 410 C210 205 560 55 1360 0" fill="none" stroke="#dff6e6" stroke-width="7" opacity="0.78"/>
+    <path d="M690 120 L760 590" stroke="#dff6e6" stroke-width="6" opacity="0.72"/>
+    <ellipse cx="735" cy="365" rx="170" ry="70" fill="none" stroke="#dff6e6" stroke-width="6" opacity="0.72"/>
+    <path d="M80 400 L245 330 L300 590 L80 590 Z" fill="none" stroke="#dff6e6" stroke-width="6" opacity="0.7"/>
+    <path d="M1150 55 L1280 22 L1280 590 L1120 590 Z" fill="none" stroke="#dff6e6" stroke-width="6" opacity="0.7"/>
+    <g opacity="0.18">
+      <path d="M130 370 C340 315 650 260 1210 210" stroke="#0b3d25" stroke-width="30"/>
+      <path d="M80 475 C350 398 740 338 1305 292" stroke="#ffffff" stroke-width="16"/>
+      <path d="M220 530 C520 462 850 410 1350 370" stroke="#0b3d25" stroke-width="24"/>
+    </g>
+  </g>
+  <g transform="translate(1065 580)">
+    <circle cx="0" cy="0" r="70" fill="#f8faf7"/>
+    <path d="M0 -58 35 -18 22 38 -31 38 -45 -18 Z" fill="#101814"/>
+    <path d="M0 -58 -45 -18M35 -18 68 -8M22 38 43 68M-31 38 -55 47M0 -58 35 -18M-45 -18 -68 -8" stroke="#101814" stroke-width="8" fill="none"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#101814" stroke-width="7"/>
+  </g>
+  <g opacity="0.86" font-family="Arial, sans-serif" fill="#fff8c7">
+    <text x="125" y="205" font-size="34">xG 1.84</text>
+    <text x="1240" y="265" font-size="30">62% POS</text>
+    <text x="1120" y="390" font-size="28">AI MODEL</text>
+  </g>
+  <g stroke="#f7d547" stroke-width="5" fill="none" opacity="0.7">
+    <path d="M320 225 C535 335 690 385 890 420"/>
+    <path d="M1110 330 C1005 390 940 455 890 540"/>
+    <circle cx="320" cy="225" r="10" fill="#f7d547"/>
+    <circle cx="890" cy="420" r="10" fill="#f7d547"/>
+    <circle cx="1110" cy="330" r="10" fill="#f7d547"/>
+  </g>
+</svg>

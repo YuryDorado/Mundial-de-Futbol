@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing page académica sobre análisis, datos simulados, predicción futbolística y chatbot bilingüe para el Mundial."
+    />
+    <title>Mundial de Fútbol Inteligente</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/layout.css" />
+    <link rel="stylesheet" href="src/css/components.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <script type="module" src="src/js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#inicio">Saltar al contenido principal</a>
+
+    <button
+      class="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menú de navegación"
+      aria-controls="sidebar"
+      aria-expanded="false"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar__brand">
+        <span class="brand-mark" aria-hidden="true">MI</span>
+        <div>
+          <p class="brand-title">Mundial Inteligente</p>
+          <p class="brand-subtitle">Datos, IA y fútbol</p>
+        </div>
+      </div>
+
+      <nav class="sidebar__nav" aria-label="Navegación principal">
+        <a class="nav-link is-active" href="#inicio" data-section="inicio">Inicio</a>
+        <a class="nav-link" href="#historia" data-section="historia">Historia</a>
+        <a class="nav-link" href="#modulos" data-section="modulos">Módulos de análisis</a>
+        <a class="nav-link" href="#datos" data-section="datos">Visualización de datos</a>
+        <a class="nav-link" href="#equipo" data-section="equipo">Equipo técnico</a>
+        <a class="nav-link" href="#chatbot" data-section="chatbot">Chatbot mundialista</a>
+        <a class="nav-link" href="#contacto" data-section="contacto">Contáctanos</a>
+      </nav>
+
+      <div class="sidebar__note">
+        <strong>Proyecto académico</strong>
+        <span>Los indicadores y predicciones son simulados.</span>
+      </div>
+    </aside>
+
+    <main class="site-main">
+      <section class="hero-section section" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-section__overlay" aria-hidden="true"></div>
+        <div class="section__inner hero-section__content">
+          <p class="section-kicker">Plataforma académica de conocimiento deportivo</p>
+          <h1 id="hero-title">Mundial de Fútbol Inteligente</h1>
+          <p class="hero-section__subtitle">
+            Análisis, visualización de datos e inteligencia artificial aplicada al fútbol y la Copa Mundial.
+          </p>
+          <p class="hero-section__intro">
+            El fútbol ha pasado de ser un juego de pasión y observación empírica a convertirse en un ecosistema
+            impulsado por datos, análisis táctico, sensores, modelos estadísticos e inteligencia artificial. Esta
+            plataforma reúne información histórica, módulos de predicción y visualización de datos para entender mejor
+            el rendimiento de equipos, jugadores y competiciones mundialistas.
+          </p>
+          <div class="hero-section__actions" aria-label="Acciones principales">
+            <a class="button button--primary" href="#modulos">Explorar módulos</a>
+            <a class="button button--secondary" href="#chatbot">Probar chatbot</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light" id="historia" aria-labelledby="history-title">
+        <div class="section__inner">
+          <p class="section-kicker">Contexto</p>
+          <h2 id="history-title">Historia del fútbol y del Mundial</h2>
+          <div class="content-grid content-grid--two">
+            <div class="prose">
+              <p>
+                El fútbol moderno tomó forma en el siglo XIX con reglas unificadas, clubes organizados y competencias
+                que transformaron un juego popular en un fenómeno global. La Copa Mundial consolidó esa expansión al
+                reunir selecciones nacionales en una competición de identidad, técnica y estrategia.
+              </p>
+              <p>
+                Con el tiempo, el análisis táctico pasó de la observación directa a la lectura de datos: posesión,
+                presión, remates, mapas de calor, videoanálisis y rendimiento físico. Hoy, sensores, big data e
+                inteligencia artificial permiten estudiar patrones, estimar escenarios y apoyar decisiones deportivas
+                con una mirada más responsable y medible.
+              </p>
+            </div>
+            <ol class="timeline" aria-label="Evolución del análisis futbolístico">
+              <li>
+                <span>Reglas modernas</span>
+                <p>La estandarización del juego permitió comparar equipos y competencias.</p>
+              </li>
+              <li>
+                <span>Competiciones internacionales</span>
+                <p>Los torneos globales impulsaron nuevas escuelas tácticas y estilos de juego.</p>
+              </li>
+              <li>
+                <span>Datos e IA</span>
+                <p>Los modelos predictivos ayudan a interpretar rendimiento, probabilidades y tendencias simuladas.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="modulos" aria-labelledby="modules-title">
+        <div class="section__inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Arquitectura funcional</p>
+              <h2 id="modules-title">Módulos principales de análisis futbolístico</h2>
+            </div>
+            <p>
+              Cada módulo presenta un uso académico posible para estudiar partidos, fases del torneo, datos históricos
+              y predicciones simuladas con apoyo de IA.
+            </p>
+          </div>
+
+          <div class="match-panel" id="current-match-card" aria-live="polite">
+            <p>Cargando partido destacado...</p>
+          </div>
+
+          <div class="card-grid card-grid--modules" id="modules-list" aria-live="polite">
+            <p>Cargando módulos...</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light" id="datos" aria-labelledby="data-title">
+        <div class="section__inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Datos simulados</p>
+              <h2 id="data-title">Visualización de datos</h2>
+            </div>
+            <p>
+              Las métricas representan escenarios académicos y no corresponden a partidos reales en vivo.
+            </p>
+          </div>
+
+          <div class="metric-grid" id="stats-grid" aria-live="polite">
+            <p>Cargando indicadores...</p>
+          </div>
+
+          <div class="table-block" aria-labelledby="weekly-title">
+            <div class="table-block__header">
+              <h3 id="weekly-title">Predicción semanal de partidos</h3>
+              <span>Información simulada</span>
+            </div>
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Partido</th>
+                    <th scope="col">Prob. Equipo A</th>
+                    <th scope="col">Empate</th>
+                    <th scope="col">Prob. Equipo B</th>
+                    <th scope="col">Resultado estimado</th>
+                  </tr>
+                </thead>
+                <tbody id="weekly-table-body">
+                  <tr>
+                    <td colspan="6">Cargando tabla...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="equipo" aria-labelledby="team-title">
+        <div class="section__inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Talento técnico</p>
+              <h2 id="team-title">Equipo técnico</h2>
+            </div>
+            <p>
+              Perfiles encargados de la experiencia frontend, la organización de datos, la visión ética y el soporte
+              conceptual de inteligencia artificial.
+            </p>
+          </div>
+          <div class="team-grid" id="team-grid" aria-live="polite">
+            <p>Cargando equipo técnico...</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light" id="chatbot" aria-labelledby="chatbot-title">
+        <div class="section__inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Chatbot bilingüe</p>
+              <h2 id="chatbot-title">Chatbot mundialista</h2>
+            </div>
+            <p>
+              Asistente web limitado a la base de conocimiento local del proyecto, con respuestas en español e inglés.
+            </p>
+          </div>
+
+          <div class="chatbot-layout">
+            <aside class="declaration-panel" aria-labelledby="declaration-title">
+              <h3 id="declaration-title">Declaración Persona Transhumana</h3>
+              <blockquote>
+                “Soy LIBRE, AUTÓNOMO Y RESPONSABLE a través del diálogo y la construcción, como ideal regulativo; me
+                dirijo, controlo y dicto mis propias leyes.”
+              </blockquote>
+              <p>
+                La declaración orienta el chatbot hacia una interacción ética, educativa y responsable, centrada en
+                autonomía, bienestar, desarrollo humano y transformación positiva.
+              </p>
+            </aside>
+
+            <section class="chatbot-panel" id="chatbot-panel" aria-label="Interfaz del chatbot mundialista">
+              <div class="chatbot-panel__header">
+                <div>
+                  <h3>Asistente de la plataforma</h3>
+                  <p>Responde solo sobre el proyecto y sus datos simulados.</p>
+                </div>
+                <label class="language-select">
+                  <span>Idioma</span>
+                  <select id="chat-language" aria-label="Idioma de respuesta del chatbot">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="chatbot-messages" id="chatbot-messages" aria-live="polite"></div>
+
+              <form class="chatbot-form" id="chatbot-form" novalidate>
+                <label class="sr-only" for="chatbot-input">Pregunta para el chatbot</label>
+                <input
+                  id="chatbot-input"
+                  type="text"
+                  autocomplete="off"
+                  placeholder="Pregunta por módulos, datos, equipo o ética..."
+                  required
+                />
+                <button class="button button--primary" type="submit">Enviar</button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contacto" aria-labelledby="contact-title">
+        <div class="section__inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Comunicación</p>
+              <h2 id="contact-title">Contáctanos</h2>
+            </div>
+            <p>
+              Formulario validado con JavaScript para registrar solicitudes académicas o comentarios sobre la plataforma.
+            </p>
+          </div>
+
+          <div class="contact-layout">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-field">
+                <label for="full-name">Nombre completo</label>
+                <input id="full-name" name="fullName" type="text" autocomplete="name" required />
+                <span class="field-error" data-error-for="full-name" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Correo electrónico</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+                <span class="field-error" data-error-for="email" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="phone">Teléfono</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+                <span class="field-error" data-error-for="phone" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="subject">Asunto</label>
+                <input id="subject" name="subject" type="text" required />
+                <span class="field-error" data-error-for="subject" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field form-field--full">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <span class="field-error" data-error-for="message" aria-live="polite"></span>
+              </div>
+
+              <div class="form-actions">
+                <button class="button button--primary" type="submit">Enviar mensaje</button>
+                <p class="form-status" id="contact-status" aria-live="polite"></p>
+              </div>
+            </form>
+
+            <aside class="contact-card" aria-label="Información de contacto">
+              <h3>Información de contacto</h3>
+              <ul class="contact-list">
+                <li><span>Correo</span><a href="mailto:contacto@mundialinteligente.com">contacto@mundialinteligente.com</a></li>
+                <li><span>WhatsApp</span><a href="https://wa.me/573000000000">+57 300 000 0000</a></li>
+                <li><span>Ubicación</span>Bogotá, Colombia</li>
+                <li><span>Horario</span>Lunes a viernes, 8:00 a.m. a 6:00 p.m.</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <noscript>
+      Esta página necesita JavaScript para cargar datos locales, validar el formulario y ejecutar el chatbot.
+    </noscript>
+  </body>
+</html>

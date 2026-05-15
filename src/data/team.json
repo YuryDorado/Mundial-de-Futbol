@@ -1,0 +1,54 @@
+{
+  "members": [
+    {
+      "name": "Yury Andrea Dorado Lucas",
+      "role": "Desarrolladora Frontend, soporte tecnológico y gestión de bases de datos",
+      "profile": "Estudiante de Ingeniería de Sistemas de octavo semestre en la Universidad de Cundinamarca, con interés en desarrollo de software, bases de datos, soporte tecnológico y soluciones digitales.",
+      "contact": {
+        "Ubicación": "Ubaté, Cundinamarca",
+        "Celular": "320 209 5991",
+        "Correo": "yandorado2000@gmail.com"
+      },
+      "tags": ["Laravel", "MySQL", "PHP", "HTML", "CSS", "JavaScript"],
+      "details": [
+        "Ingeniería de Sistemas, 8.º semestre, Universidad de Cundinamarca, 2022 - actualmente.",
+        "Bachiller Académico, Institución Educativa Alfonso Vanegas Sierra, 2014 - 2021.",
+        "Proyecto destacado: Bovi Controll, desarrollado con Laravel y MySQL para control y gestión de información de procesos ganaderos.",
+        "Funciones en Bovi Controll: diseño de base de datos, desarrollo de módulos, registro y consulta de información, formularios y vistas web.",
+        "Responsabilidades en esta plataforma: estructura HTML, CSS modular, JavaScript Vanilla, validación de formulario, datos JSON locales, apoyo al chatbot y arquitectura frontend."
+      ]
+    },
+    {
+      "name": "Especialista en Inteligencia Artificial Aplicada",
+      "role": "Diseño conceptual de modelos predictivos y restricciones éticas",
+      "profile": "Profesional ficticio especializado en modelos predictivos, procesamiento de datos deportivos e inteligencia artificial aplicada al análisis de rendimiento futbolístico.",
+      "contact": {
+        "Ubicación": "Bogotá, Colombia",
+        "Correo": "ia@mundialinteligente.com"
+      },
+      "tags": ["Modelos predictivos", "Ética", "Rendimiento"],
+      "details": [
+        "Diseño conceptual del módulo de predicción asistida por IA.",
+        "Definición de variables para predicción deportiva.",
+        "Apoyo en la base de conocimiento del chatbot.",
+        "Revisión de limitaciones éticas y técnicas del uso de IA."
+      ]
+    },
+    {
+      "name": "Analista de Datos Futbolísticos",
+      "role": "Organización de métricas, tendencias históricas y visualizaciones",
+      "profile": "Profesional ficticio encargado de interpretar estadísticas, datos históricos, rendimiento de equipos y visualizaciones relacionadas con competiciones mundialistas.",
+      "contact": {
+        "Ubicación": "Bogotá, Colombia",
+        "Correo": "datos@mundialinteligente.com"
+      },
+      "tags": ["Estadística", "Mundial", "Visualización"],
+      "details": [
+        "Organización de datos simulados.",
+        "Creación de métricas futbolísticas.",
+        "Interpretación de tendencias históricas.",
+        "Apoyo en tablas y cards de visualización."
+      ]
+    }
+  ]
+}

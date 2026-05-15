@@ -1,0 +1,20 @@
+{
+  "name": "mundial-futbol-inteligente",
+  "version": "1.0.0",
+  "description": "Landing page académica con chatbot bilingüe para gestión del conocimiento sobre fútbol y Mundial.",
+  "main": "server/gemini-proxy.js",
+  "scripts": {
+    "start": "node server/gemini-proxy.js",
+    "start:gemini": "node server/gemini-proxy.js",
+    "serve": "python -m http.server 5500"
+  },
+  "keywords": [
+    "chatbot",
+    "gemini",
+    "vanilla-javascript",
+    "landing-page",
+    "world-cup"
+  ],
+  "author": "Yury Andrea Dorado Lucas",
+  "license": "MIT"
+}
