@@ -114,7 +114,7 @@ APP_ENV=development
 PORT=8787
 ```
 
-No subas `.env` al repositorio y no coloques claves reales en archivos públicos. Si una clave fue compartida por error, revócala en Google AI Studio y crea una nueva.
+
 
 ## Funcionamiento del chatbot
 
@@ -165,14 +165,6 @@ Su propósito dentro del proyecto es orientar el sistema hacia ética, autonomí
 
 La pregunta externa debe activar el fallback del chatbot.
 
-## Academic Delivery
-
-- GitHub repository link: pending
-- Explanatory video link: pending
-- Functional project: included
-- Technical README: included
-- Bilingual chatbot evidence: included
-- Transhuman Person Declaration evidence: included
 
 ## Futuras mejoras
 
