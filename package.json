@@ -13,8 +13,18 @@
     "gemini",
     "vanilla-javascript",
     "landing-page",
-    "world-cup"
+    "world-cup",
+    "multilingual-chatbot",
+    "knowledge-management"
   ],
   "author": "Yury Andrea Dorado Lucas",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
